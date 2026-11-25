@@ -1,0 +1,7 @@
+.user-management h2 { margin-top: 0; }
+.user-list { width: 100%; border-collapse: collapse; font-size: 14px; }
+.user-list th, .user-list td { text-align: left; padding: 10px; border-bottom: 1px solid var(--border); }
+.user-list th { color: var(--muted); font-weight: 600; }
+.user-list select { padding: 4px 8px; border-radius: 6px; border: 1px solid var(--border); }
+.action-buttons { display: flex; gap: 6px; flex-wrap: wrap; }
+.action-buttons button { font-size: 12px; padding: 6px 10px; }

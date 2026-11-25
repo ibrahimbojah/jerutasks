@@ -1,0 +1,14 @@
+.admin-dashboard h2 { margin-top: 0; }
+.stats-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 24px; }
+.stat-card { background: var(--bg); border-radius: var(--radius); padding: 18px; }
+.stat-label { color: var(--muted); font-size: 14px; }
+.stat-value { font-size: 32px; font-weight: 700; margin: 6px 0; }
+.stat-detail { font-size: 13px; color: var(--muted); }
+.stat-highlight { color: var(--primary); font-weight: 600; }
+.task-status-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.status-card { border-radius: var(--radius); padding: 16px; text-align: center; }
+.status-card.pending { background: #fef3c7; }
+.status-card.in-progress { background: #dbeafe; }
+.status-card.completed { background: #dcfce7; }
+.status-count { font-size: 26px; font-weight: 700; }
+.status-label { font-size: 13px; color: var(--muted); }

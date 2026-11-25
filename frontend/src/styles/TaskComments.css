@@ -1,0 +1,9 @@
+.task-comments { margin-top: 24px; border-top: 1px solid var(--border); padding-top: 16px; }
+.comment-form { display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px; }
+.comment-form textarea { border: 1px solid var(--border); border-radius: 8px; padding: 10px; min-height: 70px; font: inherit; }
+.comments-list { display: grid; gap: 10px; }
+.comment-item { background: var(--bg); border-radius: 8px; padding: 10px 12px; }
+.comment-header { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 13px; }
+.comment-date { color: var(--muted); font-size: 12px; }
+.comment-body { margin-top: 6px; white-space: pre-wrap; }
+.no-comments { color: var(--muted); font-size: 14px; }
